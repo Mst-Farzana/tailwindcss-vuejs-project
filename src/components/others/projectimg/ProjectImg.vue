@@ -12,14 +12,14 @@ const handleMouseLeave = () => {
 };
 
 const images = [
-  '/projectImg/1.jpg',
-  '/projectImg/2.jpg',
-  '/projectImg/3.jpg',
-  '/projectImg/4.jpg',
-  '/projectImg/5.jpg',
-  '/projectImg/6.jpg',
-  '/projectImg/7.jpg',
-  '/projectImg/8.jpg',
+  '/1.jpg',
+  '/2.jpg',
+  '/3.jpg',
+  '/4.jpg',
+  '/5.jpg',
+  '/6.jpg',
+  '/7.jpg',
+  '/8.jpg',
 ];
 </script>
 

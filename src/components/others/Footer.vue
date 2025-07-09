@@ -62,15 +62,15 @@ function closePostModal() {
 
 // Gallery
 const galleryImages = [
-  '/projectImg/1.jpg',
-  '/projectImg/2.jpg',
-  '/projectImg/3.jpg',
-  '/projectImg/4.jpg',
-  '/projectImg/5.jpg',
-  '/projectImg/1.jpg',
-  '/projectImg/2.jpg',
-  '/projectImg/3.jpg',
-  '/projectImg/4.jpg',
+  '/1.jpg',
+  '/2.jpg',
+  '/3.jpg',
+  '/4.jpg',
+  '/5.jpg',
+  '/1.jpg',
+  '/2.jpg',
+  '/3.jpg',
+  '/4.jpg',
 ];
 
 // Image modal

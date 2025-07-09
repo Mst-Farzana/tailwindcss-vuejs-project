@@ -34,7 +34,7 @@ function hide(index) {
         @mouseenter="show(1)"
         @mouseleave="hide(1)"
       >
-        <img src="/about/img_top01.jpg" alt="Image 1" class="mb-2" />
+        <img src="/img_top01.jpg" alt="Image 1" class="mb-2" />
         <transition name="fade">
           <div
             v-if="visible[1]"
@@ -77,7 +77,7 @@ function hide(index) {
         @mouseenter="show(3)"
         @mouseleave="hide(3)"
       >
-        <img src="/about/img_top02.jpg" alt="Image 2" class="top-0 bottom-1" />
+        <img src="/img_top02.jpg" alt="Image 2" class="top-0 bottom-1" />
         <transition name="fade">
           <div
             v-if="visible[3]"
@@ -109,7 +109,7 @@ function hide(index) {
         @mouseenter="show(4)"
         @mouseleave="hide(4)"
       >
-        <img src="/about/img_top03.jpg" alt="Image 3" />
+        <img src="/img_top03.jpg" alt="Image 3" />
         <transition name="fade">
           <div
             v-if="visible[4]"
@@ -152,7 +152,7 @@ function hide(index) {
         @mouseenter="show(6)"
         @mouseleave="hide(6)"
       >
-        <img src="/about/img_top04.jpg" alt="Image 4" />
+        <img src="/img_top04.jpg" alt="Image 4" />
         <transition name="fade">
           <div
             v-if="visible[6]"

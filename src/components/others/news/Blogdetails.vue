@@ -7,7 +7,7 @@ import LargeViewcard from './LargeViewcard.vue';
 const route = useRoute();
 const router = useRouter();
 
-const imgPath = '/projectImg/';
+const imgPath = '/public/';
 
 const allNews = [
   {

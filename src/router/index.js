@@ -65,7 +65,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/tailwindcss-vuejs-project/'),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) return savedPosition;

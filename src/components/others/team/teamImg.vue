@@ -1,25 +1,25 @@
 <script setup>
 const teamMembers = [
   {
-    image: '/team/lawn-team01.jpg',
+    image: '/lawn-team01.jpg',
     name: 'Mark Dot',
     designation: 'CEO & Founder',
     email: 'office@awesomeweb.com',
   },
   {
-    image: '/team/lawn-team02.jpg',
+    image: '/lawn-team02.jpg',
     name: 'Jane Doe',
     designation: 'Project Manager',
     email: 'jane@awesomeweb.com',
   },
   {
-    image: '/team/lawn-team03.jpg',
+    image: '/lawn-team03.jpg',
     name: 'John Smith',
     designation: 'Lead Developer',
     email: 'john@awesomeweb.com',
   },
   {
-    image: '/team/lawn-team04.jpg',
+    image: '/lawn-team04.jpg',
     name: 'Lisa Ray',
     designation: 'UI/UX Designer',
     email: 'lisa@awesomeweb.com',
