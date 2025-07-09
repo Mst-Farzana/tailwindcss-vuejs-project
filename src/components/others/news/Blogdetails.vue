@@ -1,13 +1,13 @@
 <script setup>
 import { ref, computed, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
-
 import LargeViewcard from './LargeViewcard.vue';
 
 const route = useRoute();
 const router = useRouter();
 
-const imgPath = '/public/';
+// ✅ Correct base path for GitHub Pages
+const imgPath = import.meta.env.BASE_URL;
 
 const allNews = [
   {
@@ -97,7 +97,6 @@ function filterByTag(tag) {
   if (post) selectPost(post);
 }
 
-// Watch route param and update selected post
 watch(
   () => route.params.id,
   newId => {
@@ -107,7 +106,6 @@ watch(
   { immediate: true }
 );
 
-// Optional: Auto-switch post on search
 watch(searchTerm, () => {
   const post = filteredPosts.value[0];
   if (post && (!selectedPost.value || selectedPost.value.id !== post.id)) {

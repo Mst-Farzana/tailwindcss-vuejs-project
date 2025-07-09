@@ -3,17 +3,17 @@ import { ref, nextTick, onMounted, onBeforeUnmount } from 'vue';
 
 const femousMembers = [
   {
-    image: '/team/lawn-team01.jpg',
+    image: './lawn-team01.jpg',
     name: 'Someone Famous 1',
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet voluptate quasi nobis obcaecati, iusto tenetur necessitatibus eos ad eaque aspernatur maiores aliquid commodi quos quibusdam aliquam, repellendus quidem quisquam! Impedit alias minus ab cumque quidem tenetur, eos, voluptates distinctio voluptatibus atque aspernatur a eum vero et nesciunt sit sed ratione.`,
   },
   {
-    image: '/team/lawn-team02.jpg',
+    image: './lawn-team02.jpg',
     name: 'Someone Famous 2',
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet voluptate quasi nobis obcaecati, iusto tenetur necessitatibus eos ad eaque aspernatur maiores aliquid commodi quos quibusdam aliquam, repellendus quidem quisquam! Impedit alias minus ab cumque quidem tenetur, eos, voluptates distinctio voluptatibus atque aspernatur a eum vero et nesciunt sit sed ratione.`,
   },
   {
-    image: '/team/lawn-team03.jpg',
+    image: './lawn-team03.jpg',
     name: 'Someone Famous 3',
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet voluptate quasi nobis obcaecati, iusto tenetur necessitatibus eos ad eaque aspernatur maiores aliquid commodi quos quibusdam aliquam, repellendus quidem quisquam! Impedit alias minus ab cumque quidem tenetur, eos, voluptates distinctio voluptatibus atque aspernatur a eum vero et nesciunt sit sed ratione.`,
   },

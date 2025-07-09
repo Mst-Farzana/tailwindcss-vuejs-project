@@ -2,8 +2,8 @@
 import SmallViewcard from './news/SmallViewcard.vue';
 import LargeViewcard from './news/LargeViewcard.vue';
 
-// Use public paths for GitHub Pages compatibility
-const imgBasePath = '/projectImg/';
+// ✅ Use correct public base path for GitHub Pages deployment
+const imgBasePath = import.meta.env.BASE_URL;
 
 const title = 'BLOG NEWS';
 const projectLine1 = 'Check Our Cool';
@@ -65,7 +65,7 @@ const smallCards = newsItems.slice(1);
 </script>
 
 <template>
-  <div class="bg-cyan-50 py-10 px-4">
+  <div class="bg-cyan-50 px-4 mt-10">
     <!-- Header -->
     <div class="text-center font-serif tracking-wider mb-10">
       <h3 class="text-[10px] uppercase mb-2">{{ title }}</h3>
@@ -73,7 +73,8 @@ const smallCards = newsItems.slice(1);
         {{ projectLine1 }}<br />{{ projectLine2 }}
       </p>
       <div class="h-10 w-20 mx-auto my-3">
-        <img src="/line.png" alt="decorative line" />
+        <!-- ✅ Also make line image use public path -->
+        <img :src="`${imgBasePath}line.png`" alt="decorative line" />
       </div>
       <p class="text-sm text-gray-600 max-w-2xl mx-auto">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus

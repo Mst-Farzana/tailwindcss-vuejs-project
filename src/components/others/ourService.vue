@@ -31,7 +31,7 @@
         <i
           :class="[
             box.icon,
-            'text-2xl text-white bg-emerald-300 rounded-full p-4 m-2',
+            'text-2xl text-white bg-emerald-300 rounded-full p-4 ',
           ]"
         ></i>
 

@@ -1,16 +1,16 @@
 <script setup>
 import { ref, computed } from 'vue';
 
-// Projects data
+// Projects data with fixed image paths (from public folder)
 const projects = ref([
-  { id: 1, category: 'Branding', src: '/1.jpg', alt: 'Project 1' },
-  { id: 2, category: 'Web', src: '/2.jpg', alt: 'Project 2' },
-  { id: 3, category: 'Package', src: '/3.jpg', alt: 'Project 3' },
-  { id: 4, category: 'Video', src: '/4.jpg', alt: 'Project 4' },
-  { id: 5, category: 'Branding', src: '/5.jpg', alt: 'Project 5' },
-  { id: 6, category: 'Web', src: '/6.jpg', alt: 'Project 6' },
-  { id: 7, category: 'Package', src: '/7.jpg', alt: 'Project 7' },
-  { id: 8, category: 'Package', src: '/8.jpg', alt: 'Project 8' },
+  { id: 1, category: 'Branding', src: './1.jpg', alt: 'Project 1' },
+  { id: 2, category: 'Web', src: './2.jpg', alt: 'Project 2' },
+  { id: 3, category: 'Package', src: './3.jpg', alt: 'Project 3' },
+  { id: 4, category: 'Video', src: './4.jpg', alt: 'Project 4' },
+  { id: 5, category: 'Branding', src: './5.jpg', alt: 'Project 5' },
+  { id: 6, category: 'Web', src: './6.jpg', alt: 'Project 6' },
+  { id: 7, category: 'Package', src: './7.jpg', alt: 'Project 7' },
+  { id: 8, category: 'Package', src: './8.jpg', alt: 'Project 8' },
 ]);
 
 // Categories
@@ -69,7 +69,7 @@ const selectCategory = category => {
     </div>
 
     <!-- Project Grid -->
-    <div class="grid grid-cols-4 gap-4">
+    <div class="grid grid-cols-4">
       <div
         v-for="project in filteredProjects"
         :key="project.id"

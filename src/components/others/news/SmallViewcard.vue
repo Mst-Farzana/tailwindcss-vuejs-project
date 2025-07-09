@@ -15,26 +15,26 @@ function shortDescription(text) {
 <template>
   <router-link
     :to="{ name: 'BlogDetails', params: { id: news.id } }"
-    class="block hover:shadow transition"
+    class="block"
   >
     <div>
       <!-- News Thumbnail -->
       <img
         :src="news.imageSrc"
         :alt="news.headline"
-        class="w-full h-40 object-cover rounded mb-3"
+        class="w-full h-40 object-cover"
       />
 
       <!-- Content -->
-      <div class="bg-white rounded p-2">
-        <h3 class="font-semibold text-lg mb-1 line-clamp-2">
+      <div class="bg-white rounded p-4 pb-5">
+        <h3 class="font-semibold text-sm mb-1 line-clamp-1">
           {{ news.headline }}
         </h3>
         <p class="text-sm text-gray-500">{{ news.date }}</p>
         <p class="text-xs text-blue-500">{{ news.category }}</p>
 
         <!-- Description -->
-        <p class="text-sm text-gray-700 mt-2 line-clamp-3">
+        <p class="text-sm text-gray-700 mt-2 line-clamp-2">
           {{ news.description }}
         </p>
 

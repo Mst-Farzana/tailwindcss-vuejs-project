@@ -5,7 +5,7 @@ import { RouterLink } from 'vue-router';
 <template>
   <section
     class="h-screen bg-cover bg-center bg-no-repeat bg-fixed font-mono font-semibold p-10"
-    style="background-image: url('/conbg-img.jpg')"
+    style="background-image: url('./conbg-img.jpg')"
   >
     <div class="flex flex-col items-center justify-center text-center pt-20">
       <span class="text-teal-400 text-sm uppercase tracking-wider mb-2">

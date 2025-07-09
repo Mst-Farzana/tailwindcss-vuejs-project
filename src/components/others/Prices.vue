@@ -2,7 +2,7 @@
 import { RouterLink } from 'vue-router';
 
 const title = 'Pick Your Plan';
-const url = '/line.png'; // Make sure line.png is in your public folder
+const url = './line.png'; // Make sure line.png is in your public folder
 
 const plans = [
   {
